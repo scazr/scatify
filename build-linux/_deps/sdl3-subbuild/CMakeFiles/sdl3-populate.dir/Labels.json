@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-linux/_deps/sdl3-subbuild/CMakeFiles/sdl3-populate"
+		},
+		{
+			"file" : "/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-linux/_deps/sdl3-subbuild/CMakeFiles/sdl3-populate.rule"
+		},
+		{
+			"file" : "/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-linux/_deps/sdl3-subbuild/CMakeFiles/sdl3-populate-complete.rule"
+		},
+		{
+			"file" : "/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-linux/_deps/sdl3-subbuild/sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-build.rule"
+		},
+		{
+			"file" : "/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-linux/_deps/sdl3-subbuild/sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-configure.rule"
+		},
+		{
+			"file" : "/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-linux/_deps/sdl3-subbuild/sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-download.rule"
+		},
+		{
+			"file" : "/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-linux/_deps/sdl3-subbuild/sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-install.rule"
+		},
+		{
+			"file" : "/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-linux/_deps/sdl3-subbuild/sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-mkdir.rule"
+		},
+		{
+			"file" : "/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-linux/_deps/sdl3-subbuild/sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-patch.rule"
+		},
+		{
+			"file" : "/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-linux/_deps/sdl3-subbuild/sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-test.rule"
+		},
+		{
+			"file" : "/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-linux/_deps/sdl3-subbuild/sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"sdl3-populate"
+		],
+		"name" : "sdl3-populate"
+	}
+}

@@ -1,0 +1,8 @@
+/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-win/CMakeFiles/scatify.dir
+/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-win/CMakeFiles/edit_cache.dir
+/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-win/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-win/_deps/sdl3-build/CMakeFiles/SDL3-shared.dir
+/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-win/_deps/sdl3-build/CMakeFiles/SDL3_test.dir
+/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-win/_deps/sdl3-build/CMakeFiles/SDL_uclibc.dir
+/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-win/_deps/sdl3-build/CMakeFiles/edit_cache.dir
+/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-win/_deps/sdl3-build/CMakeFiles/rebuild_cache.dir

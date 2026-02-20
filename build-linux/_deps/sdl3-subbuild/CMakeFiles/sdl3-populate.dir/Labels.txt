@@ -1,0 +1,14 @@
+# Target labels
+ sdl3-populate
+# Source files and their labels
+/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-linux/_deps/sdl3-subbuild/CMakeFiles/sdl3-populate
+/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-linux/_deps/sdl3-subbuild/CMakeFiles/sdl3-populate.rule
+/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-linux/_deps/sdl3-subbuild/CMakeFiles/sdl3-populate-complete.rule
+/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-linux/_deps/sdl3-subbuild/sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-build.rule
+/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-linux/_deps/sdl3-subbuild/sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-configure.rule
+/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-linux/_deps/sdl3-subbuild/sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-download.rule
+/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-linux/_deps/sdl3-subbuild/sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-install.rule
+/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-linux/_deps/sdl3-subbuild/sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-mkdir.rule
+/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-linux/_deps/sdl3-subbuild/sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-patch.rule
+/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-linux/_deps/sdl3-subbuild/sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-test.rule
+/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-linux/_deps/sdl3-subbuild/sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-update.rule
