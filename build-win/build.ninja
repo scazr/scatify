@@ -46,10 +46,31 @@ build cmake_object_order_depends_target_scatify: phony || cmake_object_order_dep
 
 build CMakeFiles/scatify.dir/src/main.cpp.obj: CXX_COMPILER__scatify_unscanned_ /mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/src/main.cpp || cmake_object_order_depends_target_scatify
   DEP_FILE = CMakeFiles/scatify.dir/src/main.cpp.obj.d
-  FLAGS = -std=gnu++20
+  FLAGS = -std=gnu++20 -Wall -Wextra -Wpedantic -Werror
   INCLUDES = -I/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/src -I/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-win/_deps/sdl3-build/include-revision -I/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-win/_deps/sdl3-src/include
   OBJECT_DIR = CMakeFiles/scatify.dir
   OBJECT_FILE_DIR = CMakeFiles/scatify.dir/src
+
+build CMakeFiles/scatify.dir/src/SourceFoldersManager/SourceFoldersManager.cpp.obj: CXX_COMPILER__scatify_unscanned_ /mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/src/SourceFoldersManager/SourceFoldersManager.cpp || cmake_object_order_depends_target_scatify
+  DEP_FILE = CMakeFiles/scatify.dir/src/SourceFoldersManager/SourceFoldersManager.cpp.obj.d
+  FLAGS = -std=gnu++20 -Wall -Wextra -Wpedantic -Werror
+  INCLUDES = -I/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/src -I/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-win/_deps/sdl3-build/include-revision -I/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-win/_deps/sdl3-src/include
+  OBJECT_DIR = CMakeFiles/scatify.dir
+  OBJECT_FILE_DIR = CMakeFiles/scatify.dir/src/SourceFoldersManager
+
+build CMakeFiles/scatify.dir/src/ErrorHandling/ReturnStatus/ReturnStatus.cpp.obj: CXX_COMPILER__scatify_unscanned_ /mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/src/ErrorHandling/ReturnStatus/ReturnStatus.cpp || cmake_object_order_depends_target_scatify
+  DEP_FILE = CMakeFiles/scatify.dir/src/ErrorHandling/ReturnStatus/ReturnStatus.cpp.obj.d
+  FLAGS = -std=gnu++20 -Wall -Wextra -Wpedantic -Werror
+  INCLUDES = -I/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/src -I/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-win/_deps/sdl3-build/include-revision -I/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-win/_deps/sdl3-src/include
+  OBJECT_DIR = CMakeFiles/scatify.dir
+  OBJECT_FILE_DIR = CMakeFiles/scatify.dir/src/ErrorHandling/ReturnStatus
+
+build CMakeFiles/scatify.dir/src/ErrorHandling/io.cpp.obj: CXX_COMPILER__scatify_unscanned_ /mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/src/ErrorHandling/io.cpp || cmake_object_order_depends_target_scatify
+  DEP_FILE = CMakeFiles/scatify.dir/src/ErrorHandling/io.cpp.obj.d
+  FLAGS = -std=gnu++20 -Wall -Wextra -Wpedantic -Werror
+  INCLUDES = -I/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/src -I/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-win/_deps/sdl3-build/include-revision -I/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-win/_deps/sdl3-src/include
+  OBJECT_DIR = CMakeFiles/scatify.dir
+  OBJECT_FILE_DIR = CMakeFiles/scatify.dir/src/ErrorHandling
 
 
 # =============================================================================
@@ -59,7 +80,7 @@ build CMakeFiles/scatify.dir/src/main.cpp.obj: CXX_COMPILER__scatify_unscanned_ 
 #############################################
 # Link the executable scatify.exe
 
-build scatify.exe: CXX_EXECUTABLE_LINKER__scatify_ CMakeFiles/scatify.dir/src/main.cpp.obj | _deps/sdl3-build/libSDL3.dll.a _deps/sdl3-src/src/dynapi/SDL_dynapi.sym || _deps/sdl3-build/SDL3.dll
+build scatify.exe: CXX_EXECUTABLE_LINKER__scatify_ CMakeFiles/scatify.dir/src/main.cpp.obj CMakeFiles/scatify.dir/src/SourceFoldersManager/SourceFoldersManager.cpp.obj CMakeFiles/scatify.dir/src/ErrorHandling/ReturnStatus/ReturnStatus.cpp.obj CMakeFiles/scatify.dir/src/ErrorHandling/io.cpp.obj | _deps/sdl3-build/libSDL3.dll.a _deps/sdl3-src/src/dynapi/SDL_dynapi.sym || _deps/sdl3-build/SDL3.dll
   LINK_FLAGS = -static-libgcc -static-libstdc++
   LINK_LIBRARIES = _deps/sdl3-build/libSDL3.dll.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles/scatify.dir
@@ -109,7 +130,7 @@ build cmake_object_order_depends_target_SDL3-shared: phony || cmake_object_order
 build _deps/sdl3-build/CMakeFiles/SDL3-shared.dir/cmake_pch.hxx.gch: CXX_COMPILER__SDL3-shared_unscanned_ /mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-win/_deps/sdl3-build/CMakeFiles/SDL3-shared.dir/cmake_pch.hxx.cxx | _deps/sdl3-build/CMakeFiles/SDL3-shared.dir/cmake_pch.hxx || cmake_object_order_depends_target_SDL3-shared
   DEFINES = -DDLL_EXPORT -DSDL_BUILD_MAJOR_VERSION=3 -DSDL_BUILD_MICRO_VERSION=0 -DSDL_BUILD_MINOR_VERSION=5 -DUSING_GENERATED_CONFIG_H
   DEP_FILE = _deps/sdl3-build/CMakeFiles/SDL3-shared.dir/cmake_pch.hxx.gch.d
-  FLAGS = -std=gnu++20 -Wall -Wundef -Wfloat-conversion -fno-strict-aliasing -Wshadow -Wno-unused-local-typedefs -Wimplicit-fallthrough -fdiagnostics-color=always -idirafter/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-win/_deps/sdl3-src/src/video/khronos -Winvalid-pch -x c++-header -include /mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-win/_deps/sdl3-build/CMakeFiles/SDL3-shared.dir/cmake_pch.hxx
+  FLAGS = -Wall -Wundef -Wfloat-conversion -fno-strict-aliasing -Wshadow -Wno-unused-local-typedefs -Wimplicit-fallthrough -fdiagnostics-color=always -idirafter/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-win/_deps/sdl3-src/src/video/khronos -Winvalid-pch -x c++-header -include /mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-win/_deps/sdl3-build/CMakeFiles/SDL3-shared.dir/cmake_pch.hxx
   INCLUDES = -I/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-win/_deps/sdl3-build/include-config-/build_config -I/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-win/_deps/sdl3-build/include-revision -I/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-win/_deps/sdl3-src/include -I/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-win/_deps/sdl3-src/src
   OBJECT_DIR = _deps/sdl3-build/CMakeFiles/SDL3-shared.dir
   OBJECT_FILE_DIR = _deps/sdl3-build/CMakeFiles/SDL3-shared.dir
@@ -1277,7 +1298,7 @@ build _deps/sdl3-build/CMakeFiles/SDL3-shared.dir/src/video/dummy/SDL_nullvideo.
 build _deps/sdl3-build/CMakeFiles/SDL3-shared.dir/src/core/windows/SDL_gameinput.cpp.obj: CXX_COMPILER__SDL3-shared_unscanned_ /mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-win/_deps/sdl3-src/src/core/windows/SDL_gameinput.cpp | _deps/sdl3-build/CMakeFiles/SDL3-shared.dir/cmake_pch.hxx _deps/sdl3-build/CMakeFiles/SDL3-shared.dir/cmake_pch.hxx.gch || cmake_object_order_depends_target_SDL3-shared
   DEFINES = -DDLL_EXPORT -DSDL_BUILD_MAJOR_VERSION=3 -DSDL_BUILD_MICRO_VERSION=0 -DSDL_BUILD_MINOR_VERSION=5 -DUSING_GENERATED_CONFIG_H
   DEP_FILE = _deps/sdl3-build/CMakeFiles/SDL3-shared.dir/src/core/windows/SDL_gameinput.cpp.obj.d
-  FLAGS = -std=gnu++20 -Wall -Wundef -Wfloat-conversion -fno-strict-aliasing -Wshadow -Wno-unused-local-typedefs -Wimplicit-fallthrough -fdiagnostics-color=always -idirafter/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-win/_deps/sdl3-src/src/video/khronos -Winvalid-pch -include /mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-win/_deps/sdl3-build/CMakeFiles/SDL3-shared.dir/cmake_pch.hxx
+  FLAGS = -Wall -Wundef -Wfloat-conversion -fno-strict-aliasing -Wshadow -Wno-unused-local-typedefs -Wimplicit-fallthrough -fdiagnostics-color=always -idirafter/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-win/_deps/sdl3-src/src/video/khronos -Winvalid-pch -include /mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-win/_deps/sdl3-build/CMakeFiles/SDL3-shared.dir/cmake_pch.hxx
   INCLUDES = -I/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-win/_deps/sdl3-build/include-config-/build_config -I/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-win/_deps/sdl3-build/include-revision -I/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-win/_deps/sdl3-src/include -I/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-win/_deps/sdl3-src/src
   OBJECT_DIR = _deps/sdl3-build/CMakeFiles/SDL3-shared.dir
   OBJECT_FILE_DIR = _deps/sdl3-build/CMakeFiles/SDL3-shared.dir/src/core/windows
@@ -1325,7 +1346,7 @@ build _deps/sdl3-build/CMakeFiles/SDL3-shared.dir/src/core/windows/pch.c.obj: C_
 build _deps/sdl3-build/CMakeFiles/SDL3-shared.dir/src/core/windows/pch_cpp.cpp.obj: CXX_COMPILER__SDL3-shared_unscanned_ /mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-win/_deps/sdl3-src/src/core/windows/pch_cpp.cpp | _deps/sdl3-build/CMakeFiles/SDL3-shared.dir/cmake_pch.hxx _deps/sdl3-build/CMakeFiles/SDL3-shared.dir/cmake_pch.hxx.gch || cmake_object_order_depends_target_SDL3-shared
   DEFINES = -DDLL_EXPORT -DSDL_BUILD_MAJOR_VERSION=3 -DSDL_BUILD_MICRO_VERSION=0 -DSDL_BUILD_MINOR_VERSION=5 -DUSING_GENERATED_CONFIG_H
   DEP_FILE = _deps/sdl3-build/CMakeFiles/SDL3-shared.dir/src/core/windows/pch_cpp.cpp.obj.d
-  FLAGS = -std=gnu++20 -Wall -Wundef -Wfloat-conversion -fno-strict-aliasing -Wshadow -Wno-unused-local-typedefs -Wimplicit-fallthrough -fdiagnostics-color=always -idirafter/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-win/_deps/sdl3-src/src/video/khronos -Winvalid-pch -include /mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-win/_deps/sdl3-build/CMakeFiles/SDL3-shared.dir/cmake_pch.hxx
+  FLAGS = -Wall -Wundef -Wfloat-conversion -fno-strict-aliasing -Wshadow -Wno-unused-local-typedefs -Wimplicit-fallthrough -fdiagnostics-color=always -idirafter/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-win/_deps/sdl3-src/src/video/khronos -Winvalid-pch -include /mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-win/_deps/sdl3-build/CMakeFiles/SDL3-shared.dir/cmake_pch.hxx
   INCLUDES = -I/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-win/_deps/sdl3-build/include-config-/build_config -I/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-win/_deps/sdl3-build/include-revision -I/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-win/_deps/sdl3-src/include -I/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-win/_deps/sdl3-src/src
   OBJECT_DIR = _deps/sdl3-build/CMakeFiles/SDL3-shared.dir
   OBJECT_FILE_DIR = _deps/sdl3-build/CMakeFiles/SDL3-shared.dir/src/core/windows
@@ -1397,7 +1418,7 @@ build _deps/sdl3-build/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowsf
 build _deps/sdl3-build/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowsgameinput.cpp.obj: CXX_COMPILER__SDL3-shared_unscanned_ /mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-win/_deps/sdl3-src/src/video/windows/SDL_windowsgameinput.cpp | _deps/sdl3-build/CMakeFiles/SDL3-shared.dir/cmake_pch.hxx _deps/sdl3-build/CMakeFiles/SDL3-shared.dir/cmake_pch.hxx.gch || cmake_object_order_depends_target_SDL3-shared
   DEFINES = -DDLL_EXPORT -DSDL_BUILD_MAJOR_VERSION=3 -DSDL_BUILD_MICRO_VERSION=0 -DSDL_BUILD_MINOR_VERSION=5 -DUSING_GENERATED_CONFIG_H
   DEP_FILE = _deps/sdl3-build/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowsgameinput.cpp.obj.d
-  FLAGS = -std=gnu++20 -Wall -Wundef -Wfloat-conversion -fno-strict-aliasing -Wshadow -Wno-unused-local-typedefs -Wimplicit-fallthrough -fdiagnostics-color=always -idirafter/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-win/_deps/sdl3-src/src/video/khronos -Winvalid-pch -include /mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-win/_deps/sdl3-build/CMakeFiles/SDL3-shared.dir/cmake_pch.hxx
+  FLAGS = -Wall -Wundef -Wfloat-conversion -fno-strict-aliasing -Wshadow -Wno-unused-local-typedefs -Wimplicit-fallthrough -fdiagnostics-color=always -idirafter/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-win/_deps/sdl3-src/src/video/khronos -Winvalid-pch -include /mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-win/_deps/sdl3-build/CMakeFiles/SDL3-shared.dir/cmake_pch.hxx
   INCLUDES = -I/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-win/_deps/sdl3-build/include-config-/build_config -I/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-win/_deps/sdl3-build/include-revision -I/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-win/_deps/sdl3-src/include -I/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-win/_deps/sdl3-src/src
   OBJECT_DIR = _deps/sdl3-build/CMakeFiles/SDL3-shared.dir
   OBJECT_FILE_DIR = _deps/sdl3-build/CMakeFiles/SDL3-shared.dir/src/video/windows

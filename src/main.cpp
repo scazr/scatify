@@ -1,19 +1,20 @@
 #include "SDL3/SDL_audio.h"
 #include "SDL3/SDL_error.h"
+#include "SourceFoldersManager/SourceFoldersManager.hpp"
 #include <iostream>
 #include <SDL3/SDL.h>
 #include <filesystem>
 #include <ostream>
 
 int main() {
-  if(SDL_Init(SDL_INIT_AUDIO | SDL_INIT_VIDEO) < 0) {
+  if(!SDL_Init(SDL_INIT_AUDIO | SDL_INIT_VIDEO)) {
     std::cerr << "Error loading audio subsystem: " << SDL_GetError() << '\n';
     return 1;
   }
 
   SDL_AudioSpec spec;
   Uint8 *audio_buf = nullptr;
-  Uint32 audio_len = 1024;
+  Uint32 audio_len = 0;
 
   std::cout << std::filesystem::current_path() << std::endl;
 
@@ -41,6 +42,12 @@ int main() {
 
   SDL_ResumeAudioDevice(dev);
 
+  SourceFoldersManager source_folders_manager = SourceFoldersManager();
+  source_folders_manager.addDirPath("C:/Users/Guilherme/Music");
+  source_folders_manager.addDirPath("C:/Users/Guilherme/Desktop");
+
+  std::cout << show(source_folders_manager);
+
   SDL_Delay(10000);
 
   SDL_DestroyAudioStream(stream);
@@ -51,7 +58,6 @@ int main() {
 
 
   
-  SDL_Init(SDL_INIT_VIDEO);
   SDL_Window* win = SDL_CreateWindow("SDL3 Cross Build", 800, 600, 0);
   SDL_Delay(2000);
   SDL_DestroyWindow(win);
