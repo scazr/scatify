@@ -1,1 +1,33 @@
-/test
+# Experimental code 
+/Experimental
+
+# Build directories
+/build-linux/
+/build-win/
+
+# CMake
+CMakeCache.txt
+cmake_install.cmake
+build.ninja
+**/CMakeFiles/
+**/_deps/
+
+# Binaries
+*.exe
+*.dll
+*.so
+*.a
+*.lib
+
+# Object files
+*.o
+*.obj
+*.d
+
+# Cache
+.cache/
+
+# IDEs
+.vscode/
+*.swp
+*.swo
