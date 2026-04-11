@@ -46,31 +46,31 @@ build cmake_object_order_depends_target_scatify: phony || cmake_object_order_dep
 
 build CMakeFiles/scatify.dir/src/main.cpp.obj: CXX_COMPILER__scatify_unscanned_ /mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/src/main.cpp || cmake_object_order_depends_target_scatify
   DEP_FILE = CMakeFiles/scatify.dir/src/main.cpp.obj.d
-  FLAGS = -std=gnu++20 -Wall -Wextra -Wpedantic -Werror
+  FLAGS = -std=gnu++23 -Wall -Wextra -Wpedantic -Werror
   INCLUDES = -I/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/src -I/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-win/_deps/sdl3-build/include-revision -I/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-win/_deps/sdl3-src/include
   OBJECT_DIR = CMakeFiles/scatify.dir
   OBJECT_FILE_DIR = CMakeFiles/scatify.dir/src
 
 build CMakeFiles/scatify.dir/src/SourceFoldersManager/SourceFoldersManager.cpp.obj: CXX_COMPILER__scatify_unscanned_ /mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/src/SourceFoldersManager/SourceFoldersManager.cpp || cmake_object_order_depends_target_scatify
   DEP_FILE = CMakeFiles/scatify.dir/src/SourceFoldersManager/SourceFoldersManager.cpp.obj.d
-  FLAGS = -std=gnu++20 -Wall -Wextra -Wpedantic -Werror
+  FLAGS = -std=gnu++23 -Wall -Wextra -Wpedantic -Werror
   INCLUDES = -I/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/src -I/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-win/_deps/sdl3-build/include-revision -I/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-win/_deps/sdl3-src/include
   OBJECT_DIR = CMakeFiles/scatify.dir
   OBJECT_FILE_DIR = CMakeFiles/scatify.dir/src/SourceFoldersManager
 
-build CMakeFiles/scatify.dir/src/ErrorHandling/ReturnStatus/ReturnStatus.cpp.obj: CXX_COMPILER__scatify_unscanned_ /mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/src/ErrorHandling/ReturnStatus/ReturnStatus.cpp || cmake_object_order_depends_target_scatify
-  DEP_FILE = CMakeFiles/scatify.dir/src/ErrorHandling/ReturnStatus/ReturnStatus.cpp.obj.d
-  FLAGS = -std=gnu++20 -Wall -Wextra -Wpedantic -Werror
-  INCLUDES = -I/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/src -I/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-win/_deps/sdl3-build/include-revision -I/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-win/_deps/sdl3-src/include
-  OBJECT_DIR = CMakeFiles/scatify.dir
-  OBJECT_FILE_DIR = CMakeFiles/scatify.dir/src/ErrorHandling/ReturnStatus
-
 build CMakeFiles/scatify.dir/src/ErrorHandling/io.cpp.obj: CXX_COMPILER__scatify_unscanned_ /mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/src/ErrorHandling/io.cpp || cmake_object_order_depends_target_scatify
   DEP_FILE = CMakeFiles/scatify.dir/src/ErrorHandling/io.cpp.obj.d
-  FLAGS = -std=gnu++20 -Wall -Wextra -Wpedantic -Werror
+  FLAGS = -std=gnu++23 -Wall -Wextra -Wpedantic -Werror
   INCLUDES = -I/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/src -I/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-win/_deps/sdl3-build/include-revision -I/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-win/_deps/sdl3-src/include
   OBJECT_DIR = CMakeFiles/scatify.dir
   OBJECT_FILE_DIR = CMakeFiles/scatify.dir/src/ErrorHandling
+
+build CMakeFiles/scatify.dir/src/PlayerWrapper.cpp.obj: CXX_COMPILER__scatify_unscanned_ /mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/src/PlayerWrapper.cpp || cmake_object_order_depends_target_scatify
+  DEP_FILE = CMakeFiles/scatify.dir/src/PlayerWrapper.cpp.obj.d
+  FLAGS = -std=gnu++23 -Wall -Wextra -Wpedantic -Werror
+  INCLUDES = -I/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/src -I/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-win/_deps/sdl3-build/include-revision -I/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-win/_deps/sdl3-src/include
+  OBJECT_DIR = CMakeFiles/scatify.dir
+  OBJECT_FILE_DIR = CMakeFiles/scatify.dir/src
 
 
 # =============================================================================
@@ -80,7 +80,7 @@ build CMakeFiles/scatify.dir/src/ErrorHandling/io.cpp.obj: CXX_COMPILER__scatify
 #############################################
 # Link the executable scatify.exe
 
-build scatify.exe: CXX_EXECUTABLE_LINKER__scatify_ CMakeFiles/scatify.dir/src/main.cpp.obj CMakeFiles/scatify.dir/src/SourceFoldersManager/SourceFoldersManager.cpp.obj CMakeFiles/scatify.dir/src/ErrorHandling/ReturnStatus/ReturnStatus.cpp.obj CMakeFiles/scatify.dir/src/ErrorHandling/io.cpp.obj | _deps/sdl3-build/libSDL3.dll.a _deps/sdl3-src/src/dynapi/SDL_dynapi.sym || _deps/sdl3-build/SDL3.dll
+build scatify.exe: CXX_EXECUTABLE_LINKER__scatify_ CMakeFiles/scatify.dir/src/main.cpp.obj CMakeFiles/scatify.dir/src/SourceFoldersManager/SourceFoldersManager.cpp.obj CMakeFiles/scatify.dir/src/ErrorHandling/io.cpp.obj CMakeFiles/scatify.dir/src/PlayerWrapper.cpp.obj | _deps/sdl3-build/libSDL3.dll.a _deps/sdl3-src/src/dynapi/SDL_dynapi.sym || _deps/sdl3-build/SDL3.dll
   LINK_FLAGS = -static-libgcc -static-libstdc++
   LINK_LIBRARIES = _deps/sdl3-build/libSDL3.dll.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles/scatify.dir

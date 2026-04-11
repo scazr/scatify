@@ -1366,6 +1366,7 @@ set(OLD_GLOB
   "/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-linux/_deps/sdl3-src/src/video/wayland/SDL_waylandmouse.c"
   "/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-linux/_deps/sdl3-src/src/video/wayland/SDL_waylandopengles.c"
   "/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-linux/_deps/sdl3-src/src/video/wayland/SDL_waylandshmbuffer.c"
+  "/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-linux/_deps/sdl3-src/src/video/wayland/SDL_waylandutil.c"
   "/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-linux/_deps/sdl3-src/src/video/wayland/SDL_waylandvideo.c"
   "/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-linux/_deps/sdl3-src/src/video/wayland/SDL_waylandvulkan.c"
   "/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-linux/_deps/sdl3-src/src/video/wayland/SDL_waylandwindow.c"

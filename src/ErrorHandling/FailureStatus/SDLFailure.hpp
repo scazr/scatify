@@ -1,0 +1,27 @@
+#pragma once
+#include <string>
+
+enum class SDLFailure {
+  failure = 1,
+  audio_subsystem,
+  loading_file,
+  opening_device,
+  creating_audio_stream
+};
+
+inline std::string show(const SDLFailure &file_failure) {
+  switch(file_failure) {
+    case SDLFailure::failure:
+      return "SDLFailure::failure";
+    case SDLFailure::audio_subsystem:
+      return "SDLFailure::audio_subsystem";
+    case SDLFailure::loading_file:
+      return "SDLFailure::loading_file";
+    case SDLFailure::opening_device:
+      return "SDLFailure::opening_device";
+    case SDLFailure::creating_audio_stream:
+      return "SDLFailure::creating_audio_stream";
+    default:
+      return "SDLFailure::unknown";
+  }
+}

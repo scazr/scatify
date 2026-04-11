@@ -31,6 +31,7 @@ set(OLD_GLOB
   "/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-win/_deps/sdl3-src/src/SDL_internal.h"
   "/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-win/_deps/sdl3-src/src/SDL_list.h"
   "/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-win/_deps/sdl3-src/src/SDL_log_c.h"
+  "/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-win/_deps/sdl3-src/src/SDL_menu.h"
   "/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-win/_deps/sdl3-src/src/SDL_properties_c.h"
   "/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-win/_deps/sdl3-src/src/SDL_utils_c.h"
   )

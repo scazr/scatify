@@ -2,8 +2,10 @@
 #include <filesystem>
 #include <vector>
 #include <string>
-#include "ErrorHandling/ReturnStatus/ReturnStatus.hpp"
-#include "ErrorHandling/Failure/FileFailure.hpp"
+#include <expected>
+#include "ErrorHandling/Success/Success.hpp"
+#include "ErrorHandling/Failure/DetailedFailure.hpp"
+#include "ErrorHandling/FailureStatus/FileFailure.hpp"
 
 class SourceFoldersManager {
 private:
@@ -19,7 +21,8 @@ public:
 
   const std::vector<std::filesystem::path>& getSourceFoldersPaths() const;
 
-  ReturnStatus<FileFailure> verifyDirPath(const std::string &path_str) const;
+  std::expected<Success, DetailedFailure<FileFailure>>
+  verifyDirPath(const std::string &path_str) const;
 };
 
 std::string show(const SourceFoldersManager &source_folders_manager);

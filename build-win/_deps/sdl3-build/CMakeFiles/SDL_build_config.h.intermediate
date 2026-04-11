@@ -574,6 +574,8 @@
 /* #undef SDL_VIDEO_VITA_PVR */
 /* #undef SDL_VIDEO_VITA_PVR_OGL */
 
+/* #undef SDL_EMSCRIPTEN_PERSISTENT_PATH_STRING */
+
 /* xkbcommon version info */
 #define SDL_XKBCOMMON_VERSION_MAJOR 
 #define SDL_XKBCOMMON_VERSION_MINOR 

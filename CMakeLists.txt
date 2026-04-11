@@ -1,6 +1,8 @@
 cmake_minimum_required(VERSION 3.20)
 project(scatify LANGUAGES C CXX)
 
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+
 include(FetchContent)
 
 fetchcontent_declare(
@@ -12,13 +14,13 @@ fetchcontent_declare(
 fetchcontent_makeavailable(SDL3)
 
 add_executable(scatify
-	src/main.cpp
-	src/SourceFoldersManager/SourceFoldersManager.cpp
-	src/ErrorHandling/ReturnStatus/ReturnStatus.cpp
-	src/ErrorHandling/io.cpp
+  src/main.cpp
+  src/SourceFoldersManager/SourceFoldersManager.cpp
+  src/ErrorHandling/io.cpp
+  src/PlayerWrapper.cpp
 )
 
-target_compile_features(scatify PUBLIC cxx_std_20)
+target_compile_features(scatify PUBLIC cxx_std_23)
 
 if(CMAKE_CXX_COMPILER_ID MATCHES "Clang|GNU")
   target_compile_options(scatify PRIVATE

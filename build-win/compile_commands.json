@@ -1,27 +1,27 @@
 [
 {
   "directory": "/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-win",
-  "command": "/usr/bin/x86_64-w64-mingw32-g++ -I/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/src -I/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-win/_deps/sdl3-build/include-revision -I/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-win/_deps/sdl3-src/include -std=gnu++20 -Wall -Wextra -Wpedantic -Werror -o CMakeFiles/scatify.dir/src/main.cpp.obj -c /mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/src/main.cpp",
+  "command": "/usr/bin/x86_64-w64-mingw32-g++ -I/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/src -I/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-win/_deps/sdl3-build/include-revision -I/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-win/_deps/sdl3-src/include -std=gnu++23 -Wall -Wextra -Wpedantic -Werror -o CMakeFiles/scatify.dir/src/main.cpp.obj -c /mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/src/main.cpp",
   "file": "/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/src/main.cpp",
   "output": "CMakeFiles/scatify.dir/src/main.cpp.obj"
 },
 {
   "directory": "/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-win",
-  "command": "/usr/bin/x86_64-w64-mingw32-g++ -I/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/src -I/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-win/_deps/sdl3-build/include-revision -I/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-win/_deps/sdl3-src/include -std=gnu++20 -Wall -Wextra -Wpedantic -Werror -o CMakeFiles/scatify.dir/src/SourceFoldersManager/SourceFoldersManager.cpp.obj -c /mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/src/SourceFoldersManager/SourceFoldersManager.cpp",
+  "command": "/usr/bin/x86_64-w64-mingw32-g++ -I/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/src -I/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-win/_deps/sdl3-build/include-revision -I/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-win/_deps/sdl3-src/include -std=gnu++23 -Wall -Wextra -Wpedantic -Werror -o CMakeFiles/scatify.dir/src/SourceFoldersManager/SourceFoldersManager.cpp.obj -c /mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/src/SourceFoldersManager/SourceFoldersManager.cpp",
   "file": "/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/src/SourceFoldersManager/SourceFoldersManager.cpp",
   "output": "CMakeFiles/scatify.dir/src/SourceFoldersManager/SourceFoldersManager.cpp.obj"
 },
 {
   "directory": "/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-win",
-  "command": "/usr/bin/x86_64-w64-mingw32-g++ -I/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/src -I/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-win/_deps/sdl3-build/include-revision -I/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-win/_deps/sdl3-src/include -std=gnu++20 -Wall -Wextra -Wpedantic -Werror -o CMakeFiles/scatify.dir/src/ErrorHandling/ReturnStatus/ReturnStatus.cpp.obj -c /mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/src/ErrorHandling/ReturnStatus/ReturnStatus.cpp",
-  "file": "/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/src/ErrorHandling/ReturnStatus/ReturnStatus.cpp",
-  "output": "CMakeFiles/scatify.dir/src/ErrorHandling/ReturnStatus/ReturnStatus.cpp.obj"
+  "command": "/usr/bin/x86_64-w64-mingw32-g++ -I/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/src -I/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-win/_deps/sdl3-build/include-revision -I/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-win/_deps/sdl3-src/include -std=gnu++23 -Wall -Wextra -Wpedantic -Werror -o CMakeFiles/scatify.dir/src/ErrorHandling/io.cpp.obj -c /mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/src/ErrorHandling/io.cpp",
+  "file": "/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/src/ErrorHandling/io.cpp",
+  "output": "CMakeFiles/scatify.dir/src/ErrorHandling/io.cpp.obj"
 },
 {
   "directory": "/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-win",
-  "command": "/usr/bin/x86_64-w64-mingw32-g++ -I/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/src -I/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-win/_deps/sdl3-build/include-revision -I/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-win/_deps/sdl3-src/include -std=gnu++20 -Wall -Wextra -Wpedantic -Werror -o CMakeFiles/scatify.dir/src/ErrorHandling/io.cpp.obj -c /mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/src/ErrorHandling/io.cpp",
-  "file": "/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/src/ErrorHandling/io.cpp",
-  "output": "CMakeFiles/scatify.dir/src/ErrorHandling/io.cpp.obj"
+  "command": "/usr/bin/x86_64-w64-mingw32-g++ -I/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/src -I/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-win/_deps/sdl3-build/include-revision -I/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-win/_deps/sdl3-src/include -std=gnu++23 -Wall -Wextra -Wpedantic -Werror -o CMakeFiles/scatify.dir/src/PlayerWrapper.cpp.obj -c /mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/src/PlayerWrapper.cpp",
+  "file": "/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/src/PlayerWrapper.cpp",
+  "output": "CMakeFiles/scatify.dir/src/PlayerWrapper.cpp.obj"
 },
 {
   "directory": "/mnt/c/Users/Guilherme/Desktop/Projetos/scatify_cpp/build-win",
