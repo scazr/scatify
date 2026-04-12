@@ -6,7 +6,9 @@ enum class SDLFailure {
   audio_subsystem,
   loading_file,
   opening_device,
-  creating_audio_stream
+  creating_audio_stream,
+  binding_audio_stream,
+  put_audio_stream_data,
 };
 
 inline std::string show(const SDLFailure &file_failure) {
@@ -21,6 +23,10 @@ inline std::string show(const SDLFailure &file_failure) {
       return "SDLFailure::opening_device";
     case SDLFailure::creating_audio_stream:
       return "SDLFailure::creating_audio_stream";
+    case SDLFailure::binding_audio_stream:
+      return "SDLFailure::binding_audio_stream";
+    case SDLFailure::put_audio_stream_data:
+      return "SDLFailure::put_audio_stream_data";
     default:
       return "SDLFailure::unknown";
   }

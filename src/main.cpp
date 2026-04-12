@@ -6,8 +6,8 @@
 
 int main() {
   PlayerWrapper player = PlayerWrapper("src/sample.wav");
-  player.playtest();
-
+  player.play();
+  SDL_Delay(10000);
   SourceFoldersManager source_folders_manager = SourceFoldersManager();
   source_folders_manager.addDirPath("C:/Users/Guilherme/Music");
   source_folders_manager.addDirPath("C:/Users/Guilherme/Desktop");
